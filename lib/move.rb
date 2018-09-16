@@ -20,6 +20,4 @@ def move(array, index, value = "X")
   end
   
   update_array_at_with(board, 0, "X")
-# The element at index 0 of array 'board' is set to the value "X"
-  board #=> ["X", " ", " "]
 end
