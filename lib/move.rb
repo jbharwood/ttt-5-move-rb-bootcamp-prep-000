@@ -16,6 +16,6 @@ def move(array, index, value = "X")
   def update_array_at_with(array, index, value)
     array[(index - 1)] = value
   end
-update_array_at_with(array, index, value)
+update_array_at_with(array, input_to_index(index), value)
 board
 end
